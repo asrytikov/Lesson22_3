@@ -19,4 +19,8 @@ public class ProductService {
         return products;
     }
 
+    public void deleteProduct(Product product){
+        products.remove(product);
+    }
+
 }
